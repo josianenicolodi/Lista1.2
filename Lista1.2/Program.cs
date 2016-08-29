@@ -10,6 +10,16 @@ namespace Lista1._2
     {
         static void Main(string[] args)
         {
+            Banco banco = new Banco();
+      
+
+            banco.Inicializa();
+
+        
+
+            Console.WriteLine(" Conta de maior saldo : " + banco.MaiorSaldo().NomeCliente );
+
+            Console.ReadLine();
         }
     }
 }
